@@ -31,6 +31,7 @@ if(WIN32)
         list(APPEND B2_OPTIONS define=BOOST_USE_WINAPI_VERSION=0x0501)
     endif()
 endif()
+set(Boost_USE_STATIC_LIBS ON)
 
 FetchContent_MakeAvailable(Boost)
 find_package(Boost
