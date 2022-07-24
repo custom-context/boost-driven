@@ -24,7 +24,7 @@ if(WIN32)
     endif()
 endif()
 
-add_subdirectory(boost-cmake)
+add_subdirectory(submodules/boost-cmake)
 
 add_executable(${PROJECT_NAME}
     main.cpp

@@ -1,3 +1,3 @@
-[submodule "boost-cmake"]
-	path = boost-cmake
+[submodule "submodules/boost-cmake"]
+	path = submodules/boost-cmake
 	url = https://github.com/Orphis/boost-cmake.git
