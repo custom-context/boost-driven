@@ -191,3 +191,11 @@ _deps
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++,clion,cmake
+
+### Custom ###
+# Ingore MSBuild generated files
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.proj
+*.proj.*
