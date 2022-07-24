@@ -32,6 +32,7 @@ if(WIN32)
     endif()
 endif()
 
+FetchContent_MakeAvailable(Boost)
 find_package(Boost
     COMPONENTS
         log
