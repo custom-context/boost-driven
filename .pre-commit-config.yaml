@@ -10,3 +10,5 @@ repos:
     args: [--fix=lf]
   - id: end-of-file-fixer
   - id: trailing-whitespace
+  # Windows is case sensitive for filenames
+  - id: check-case-conflict
